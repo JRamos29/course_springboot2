@@ -31,15 +31,15 @@ public class UserService {
 		return repository.save(obj);
 	}
 	
-//	public void delete(Long id) {
+	public void delete(Long id) {
 //		try {
-//			repository.deleteById(id);
+			repository.deleteById(id);
 //		} catch (EmptyResultDataAccessException e) {
 //			throw new ResourceNotFoundException(id);
 //		} catch (DataIntegrityViolationException e) {
 //			throw new DatabaseException(e.getMessage());
 //		}
-//	}
+	}
 	
 //	public User update(Long id, User obj) {
 //		try {
